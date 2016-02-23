@@ -55,7 +55,6 @@
                                     </tbody>
                                 </table>
 
-                                <a href="<?php echo site_url()?>/dashboard/add_gardu/"><button type="button" class="btn btn-primary">Tambah Gardu</button></a>
                             <br><br>
                             </div>
                             <!-- /.table-responsive -->
