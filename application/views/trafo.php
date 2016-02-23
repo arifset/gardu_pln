@@ -37,15 +37,15 @@
                                             <td>".$no."</td>
                                             <td>".$trafo_show->name_trafo."</td>
                                             <td>".$trafo_show->sn_trafo."</td>
-                                            <td>".$trafo_show->apasitas_trafo."</td>
+                                            <td>".$trafo_show->kapasitas_trafo."</td>
                                             <td>".$trafo_show->hvnominal_trafo."</td>
                                             <td>".$trafo_show->lvnominal_trafo."</td>
                                             <td>".$trafo_show->temp_oil_trafo."</td>
-                                            <td>".$trafo_show->born_trafo."</td>
+                                            <td>".$trafo_show->tahun_trafo."</td>
                                             <td>".$trafo_show->type_trafo."</td>
-                              
-                                            <td><a href=".site_url('')."/dashboard/edit_trafo/$gardu_show->id_gardu> <button type='button' class='btn btn-success btn-circle'><i class='fa fa-link'></i></button></a>
-                                            <a href=".site_url('')."/dashboard/delete_gardu/$gardu_show->id_gardu><button type='button' class='btn btn-warning btn-circle'><i class='fa fa-times'></i></button></a>
+                                                
+                                            <td><a href=".site_url('')."/dashboard/edit_trafo/> <button type='button' class='btn btn-success btn-circle'><i class='fa fa-link'></i></button></a>
+                                            <a href=".site_url('')."/dashboard/delete_gardu/><button type='button' class='btn btn-warning btn-circle'><i class='fa fa-times'></i></button></a>
                                             </td>
                                         </tr>";
                                              $no++;
