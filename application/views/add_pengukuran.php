@@ -274,7 +274,6 @@
                       </div>
                     </div>
                   </div><!-- /.box-body -->
-              
                 </div>
           <div class="box box-primary">
           <div class="box-header with-border">
@@ -291,15 +290,219 @@
                   <li class="pull-right"><a href="#" class="text-muted"><i class="fa fa-gear"></i></a></li>
                 </ul>
                 <div class="tab-content">
+                
                   <div class="tab-pane active" id="tab_1">
-                    <b>How to use:</b>
-                    
+                <div class="box-body">
+                  <table class="table table-bordered">
+                  <div class="box-header with-border">
+                    <h3 class="box-title">Fasa R </h3>
+                  </div>
+                    <tr>
+                      <th style="width: 10px">Beban</th>
+                      <th style="width: 10px">Fuse</th>
+                      <th style="width: 10px">CosPhi</th>
+                    </tr>
+                    <tr>
+                      <td>
+                      <div class="col-sm-8">
+                        <input type="text" class="form-control input-sm" id="inputPassword3" placeholder="">
+                      </div></td>
+                      <td><div class="col-sm-8">
+                        <input type="text" class="form-control input-sm" id="inputPassword3" placeholder="">
+                      </div></td>
+                      <td><div class="col-sm-8">
+                        <input type="text" class="form-control input-sm" id="inputPassword3" placeholder="">
+                      </div></td>
+                    </tr>
+                  </table>
+                  <table class="table table-bordered">
+                  <div class="box-header with-border">
+                    <h3 class="box-title">Fasa S </h3>
+                  </div>
+                    <tr>
+                      <th style="width: 10px">Beban</th>
+                      <th style="width: 10px">Fuse</th>
+                      <th style="width: 10px">CosPhi</th>
+                    </tr>
+                    <tr>
+                      <td>
+                      <div class="col-sm-8">
+                        <input type="text" class="form-control input-sm" id="inputPassword3" placeholder="">
+                      </div></td>
+                      <td><div class="col-sm-8">
+                        <input type="text" class="form-control input-sm" id="inputPassword3" placeholder="">
+                      </div></td>
+                      <td><div class="col-sm-8">
+                        <input type="text" class="form-control input-sm" id="inputPassword3" placeholder="">
+                      </div></td>
+                    </tr>
+                  </table>
+                  <table class="table table-bordered">
+                  <div class="box-header with-border">
+                    <h3 class="box-title">Fasa T </h3>
+                  </div>
+                    <tr>
+                      <th style="width: 10px">Beban</th>
+                      <th style="width: 10px">Fuse</th>
+                      <th style="width: 10px">CosPhi</th>
+                    </tr>
+                    <tr>
+                      <td>
+                      <div class="col-sm-8">
+                        <input type="text" class="form-control input-sm" id="inputPassword3" placeholder="">
+                      </div></td>
+                      <td><div class="col-sm-8">
+                        <input type="text" class="form-control input-sm" id="inputPassword3" placeholder="">
+                      </div></td>
+                      <td><div class="col-sm-8">
+                        <input type="text" class="form-control input-sm" id="inputPassword3" placeholder="">
+                      </div></td>
+                    </tr>
+                  </table>
+                </div><!-- /.box-body -->
                   </div><!-- /.tab-pane -->
                   <div class="tab-pane" id="tab_2">
-                    <b>How to use:</b>
+                    <div class="box-body">
+                  <table class="table table-bordered">
+                  <div class="box-header with-border">
+                    <h3 class="box-title">Fasa R </h3>
+                  </div>
+                    <tr>
+                      <th style="width: 10px">Beban</th>
+                      <th style="width: 10px">Fuse</th>
+                      <th style="width: 10px">CosPhi</th>
+                    </tr>
+                    <tr>
+                      <td>
+                      <div class="col-sm-8">
+                        <input type="text" class="form-control input-sm" id="inputPassword3" placeholder="">
+                      </div></td>
+                      <td><div class="col-sm-8">
+                        <input type="text" class="form-control input-sm" id="inputPassword3" placeholder="">
+                      </div></td>
+                      <td><div class="col-sm-8">
+                        <input type="text" class="form-control input-sm" id="inputPassword3" placeholder="">
+                      </div></td>
+                    </tr>
+                  </table>
+                  <table class="table table-bordered">
+                  <div class="box-header with-border">
+                    <h3 class="box-title">Fasa S </h3>
+                  </div>
+                    <tr>
+                      <th style="width: 10px">Beban</th>
+                      <th style="width: 10px">Fuse</th>
+                      <th style="width: 10px">CosPhi</th>
+                    </tr>
+                    <tr>
+                      <td>
+                      <div class="col-sm-8">
+                        <input type="text" class="form-control input-sm" id="inputPassword3" placeholder="">
+                      </div></td>
+                      <td><div class="col-sm-8">
+                        <input type="text" class="form-control input-sm" id="inputPassword3" placeholder="">
+                      </div></td>
+                      <td><div class="col-sm-8">
+                        <input type="text" class="form-control input-sm" id="inputPassword3" placeholder="">
+                      </div></td>
+                    </tr>
+                  </table>
+                  <table class="table table-bordered">
+                  <div class="box-header with-border">
+                    <h3 class="box-title">Fasa T </h3>
+                  </div>
+                    <tr>
+                      <th style="width: 10px">Beban</th>
+                      <th style="width: 10px">Fuse</th>
+                      <th style="width: 10px">CosPhi</th>
+                    </tr>
+                    <tr>
+                      <td>
+                      <div class="col-sm-8">
+                        <input type="text" class="form-control input-sm" id="inputPassword3" placeholder="">
+                      </div></td>
+                      <td><div class="col-sm-8">
+                        <input type="text" class="form-control input-sm" id="inputPassword3" placeholder="">
+                      </div></td>
+                      <td><div class="col-sm-8">
+                        <input type="text" class="form-control input-sm" id="inputPassword3" placeholder="">
+                      </div></td>
+                    </tr>
+                  </table>
+                </div><!-- /.box-body -->
                   </div><!-- /.tab-pane -->
                   <div class="tab-pane" id="tab_3">
-                    <b>How to use:</b>
+                    <div class="box-body">
+                  <table class="table table-bordered">
+                  <div class="box-header with-border">
+                    <h3 class="box-title">Fasa R </h3>
+                  </div>
+                    <tr>
+                      <th style="width: 10px">Beban</th>
+                      <th style="width: 10px">Fuse</th>
+                      <th style="width: 10px">CosPhi</th>
+                    </tr>
+                    <tr>
+                      <td>
+                      <div class="col-sm-8">
+                        <input type="text" class="form-control input-sm" id="inputPassword3" placeholder="">
+                      </div></td>
+                      <td><div class="col-sm-8">
+                        <input type="text" class="form-control input-sm" id="inputPassword3" placeholder="">
+                      </div></td>
+                      <td><div class="col-sm-8">
+                        <input type="text" class="form-control input-sm" id="inputPassword3" placeholder="">
+                      </div></td>
+                    </tr>
+                  </table>
+                  <table class="table table-bordered">
+                  <div class="box-header with-border">
+                    <h3 class="box-title">Fasa S </h3>
+                  </div>
+                    <tr>
+                      <th style="width: 10px">Beban</th>
+                      <th style="width: 10px">Fuse</th>
+                      <th style="width: 10px">CosPhi</th>
+                    </tr>
+                    <tr>
+                      <td>
+                      <div class="col-sm-8">
+                        <input type="text" class="form-control input-sm" id="inputPassword3" placeholder="">
+                      </div></td>
+                      <td><div class="col-sm-8">
+                        <input type="text" class="form-control input-sm" id="inputPassword3" placeholder="">
+                      </div></td>
+                      <td><div class="col-sm-8">
+                        <input type="text" class="form-control input-sm" id="inputPassword3" placeholder="">
+                      </div></td>
+                    </tr>
+                  </table>
+                  <table class="table table-bordered">
+                  <div class="box-header with-border">
+                    <h3 class="box-title">Fasa T </h3>
+                  </div>
+                    <tr>
+                      <th style="width: 10px">Beban</th>
+                      <th style="width: 10px">Fuse</th>
+                      <th style="width: 10px">CosPhi</th>
+                    </tr>
+                    <tr>
+                      <td>
+                      <div class="col-sm-8">
+                        <input type="text" class="form-control input-sm" id="inputPassword3" placeholder="">
+                      </div></td>
+                      <td><div class="col-sm-8">
+                        <input type="text" class="form-control input-sm" id="inputPassword3" placeholder="">
+                      </div></td>
+                      <td><div class="col-sm-8">
+                        <input type="text" class="form-control input-sm" id="inputPassword3" placeholder="">
+                      </div></td>
+                    </tr>
+                    
+                  </table>
+                </div><!-- /.box-body -->
+                  </div><!-- /.tab-pane -->
+ 
                   </div><!-- /.tab-pane -->
                 </div><!-- /.tab-content -->
               </div><!-- nav-tabs-custom -->
