@@ -227,54 +227,61 @@
               </div><!-- /.box -->
               <div class="box box-primary">
                 <div class="box-header with-border">
-                  <h3 class="box-title">INPUT DATA PENGUKURAN</h3>
+                  <h3 class="box-title">INPUT DATA TEGANGAN</h3>
                 </div><!-- /.box-header -->
                 <!-- form start -->
                 <form class="form-horizontal">
                   <div class="box-body">
-                    <div class="form-group">
-                      <label for="inputEmail3" class="col-sm-2 control-label">Gardu</label>
-                      <div class="col-sm-10">
-                        <input type="email" class="form-control input-sm" id="inputEmail3" >
-                      </div>
-                    </div>
-                    <div class="form-group">
-                      <label for="inputPassword3" class="col-sm-2 control-label">Tgl/Ukur</label>
-                      <div class="col-sm-10">
-                        <input type="text" class="form-control input-sm" id="inputPassword3" placeholder="">
-                      </div>
-                    </div>                   
-                    <div class="form-group">
-                      <label for="inputPassword3" class="col-sm-2 control-label">Warna Minyak</label>
-                      <div class="col-sm-10">
-                      <select class="form-control">
-                        <option>Kuning </option>
-                        <option>Jernih</option>
-                        <option>Kuning JErnih</option>
-                        <option>Kuning Keruh</option>
-                      </select>
-                      </div>
-                    </div>
-                    <div class="form-group">
-                      <label for="inputPassword3" class="col-sm-2 control-label">(BDV)</label>
+                  <table class="table table-bordered">
+                  <div class="box-header with-border">
+                    
+                  </div>
+                    <tr>
+                      <th style="width: 15px">RS</th>
+                      <th style="width: 15px">ST</th>
+                      <th style="width: 15px">RT</th>
+                    </tr>
+                    <tr>
+                      <td>
                       <div class="col-sm-10">
                         <input type="text" class="form-control input-sm" id="inputPassword3" placeholder="">
-                      </div>
-                    </div>
-                    <div class="form-group">
-                      <label for="inputPassword3" class="col-sm-2 control-label">Acidity</label>
-                      <div class="col-sm-10">
+                      </div></td>
+                      <td><div class="col-sm-8">
                         <input type="text" class="form-control input-sm" id="inputPassword3" placeholder="">
-                      </div>
-                    </div>
-                    <div class="form-group">
-                      <div class="col-sm-offset-2 col-sm-10">
-                        <div class="checkbox">
+                      </div></td>
+                      <td><div class="col-sm-8">
+                        <input type="text" class="form-control input-sm" id="inputPassword3" placeholder="">
                         </div>
-                      </div>
-                    </div>
-                  </div><!-- /.box-body -->
+                      </td>
+                    </tr>
+                  </table>
                 </div>
+                <form class="form-horizontal">
+                  <div class="box-body">
+                  <table class="table table-bordered">
+                  <div class="box-header with-border">
+                  </div>
+                    <tr>
+                      <th style="width: 15px">RN</th>
+                      <th style="width: 15px">ST</th>
+                      <th style="width: 15px">RT</th>
+                    </tr>
+                    <tr>
+                      <td>
+                      <div class="col-sm-10">
+                        <input type="text" class="form-control input-sm" id="inputPassword3" placeholder="">
+                      </div></td>
+                      <td><div class="col-sm-8">
+                        <input type="text" class="form-control input-sm" id="inputPassword3" placeholder="">
+                      </div></td>
+                      <td><div class="col-sm-8">
+                        <input type="text" class="form-control input-sm" id="inputPassword3" placeholder="">
+                        </div>
+                      </td>
+                    </tr>
+                  </table>
+                </div>
+              </div>
           <div class="box box-primary">
           <div class="box-header with-border">
                   <h3 class="box-title">INPUT DATA PENGUKURAN</h3>
@@ -359,6 +366,24 @@
                       </div></td>
                     </tr>
                   </table>
+                  </table>
+                  <table class="table table-bordered">
+                  <div class="box-header with-border">
+                    <h3 class="box-title">Netral</h3>
+                  </div>
+                    <tr>
+                      <th style="width: 10px">Beban</th>
+                      
+                    </tr>
+                    <tr>
+                      <td>
+                      <div class="col-sm-8">
+                        <input type="text" class="form-control input-sm" id="inputPassword3" placeholder="">
+                      </div></td>
+                      
+                    </tr>
+                    
+                  </table>
                 </div><!-- /.box-body -->
                   </div><!-- /.tab-pane -->
                   <div class="tab-pane" id="tab_2">
@@ -429,6 +454,24 @@
                       </div></td>
                     </tr>
                   </table>
+                  </table>
+                  <table class="table table-bordered">
+                  <div class="box-header with-border">
+                    <h3 class="box-title">Netral</h3>
+                  </div>
+                    <tr>
+                      <th style="width: 10px">Beban</th>
+                      
+                    </tr>
+                    <tr>
+                      <td>
+                      <div class="col-sm-8">
+                        <input type="text" class="form-control input-sm" id="inputPassword3" placeholder="">
+                      </div></td>
+                      
+                    </tr>
+                    
+                  </table>
                 </div><!-- /.box-body -->
                   </div><!-- /.tab-pane -->
                   <div class="tab-pane" id="tab_3">
@@ -497,6 +540,23 @@
                       <td><div class="col-sm-8">
                         <input type="text" class="form-control input-sm" id="inputPassword3" placeholder="">
                       </div></td>
+                    </tr>
+                    
+                  </table>
+                  <table class="table table-bordered">
+                  <div class="box-header with-border">
+                    <h3 class="box-title">Netral</h3>
+                  </div>
+                    <tr>
+                      <th style="width: 10px">Beban</th>
+                      
+                    </tr>
+                    <tr>
+                      <td>
+                      <div class="col-sm-8">
+                        <input type="text" class="form-control input-sm" id="inputPassword3" placeholder="">
+                      </div></td>
+                      
                     </tr>
                     
                   </table>

@@ -16,6 +16,9 @@ class Pengukuran extends MY_Controller {
 			//$data['gardu'] = $this->mpengukuran->show_pengukuran();
 			$this->render_pages('add_pengukuran',$data);
 	}
+	function result_pengukuran(){
+		$this->render_pages('result_pengukuran');
+	}
 	function delete_pengukuran($id){
 		$this->mgardu->delete_pengukuran($id);
 		redirect('dashboard/pengukuran');
