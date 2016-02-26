@@ -11,6 +11,8 @@
     <!-- Font Awesome -->
     <link href="<?php echo base_url();?>asset/font-awesome/css/font-awesome.min.css" rel="stylesheet">
     <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">-->
+     <!-- DataTables -->
+    <link rel="stylesheet" href="<?php echo base_url();?>asset/plugins/datatables/dataTables.bootstrap.css">
     <!-- Ionicons -->
     <link href="<?php echo base_url();?>asset/css2/ionicons.min.css" rel="stylesheet">
     <!-- Theme style -->
@@ -65,8 +67,10 @@
     <script src="<?php echo base_url();?>asset/plugins/sparkline/jquery.sparkline.min.js"></script>
     <!-- jvectormap -->
     <script src="<?php echo base_url();?>asset/plugins/jvectormap/jquery-jvectormap-1.2.2.min.js"></script>
-    <script src="plugins/jvectormap/jquery-jvectormap-world-mill-en.js"></script>
     <script src="<?php echo base_url();?>asset/plugins/jvectormap/jquery-jvectormap-world-mill-en.js"></script>
+     <!-- DataTables -->
+    <script src="<?php echo base_url();?>asset/plugins/datatables/jquery.dataTables.min.js"></script>
+    <script src="<?php echo base_url();?>asset/plugins/datatables/dataTables.bootstrap.min.js"></script>
     <!-- jQuery Knob Chart -->
     <script src="<?php echo base_url();?>asset/plugins/knob/jquery.knob.js"></script>
     <!-- daterangepicker -->

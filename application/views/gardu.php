@@ -34,9 +34,9 @@
                       <?php
                         $no=1;
                         foreach ($gardu as $gardu_show) {
-                                                echo"<tr class=odd gradeX>
+                          echo"<tr class=odd gradeX>
                             <td>".$no."</td>
-                            <td>".$gardu_show->nama_gardu."</td>
+                            <td>".$gardu_show->nama_gardu."<a href=><button class='btn btn-block btn-info btn-xs'>Detail</button></a></td>
                             <td>".$gardu_show->nama_jenis_gardu."</td>
                             <td>".$gardu_show->nama_gi_gardu."</td>
                             <td>".$gardu_show->alamat_gardu."</td>
