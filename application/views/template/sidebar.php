@@ -50,9 +50,20 @@
                 <span class="label label-primary pull-right">4</span>
               </a>
               <ul class="treeview-menu">
-                <li><a href="pages/layout/top-nav.html"><i class="fa fa-circle-o"></i> Tambah Gardu</a></li>
-                <li><a href="pages/layout/boxed.html"><i class="fa fa-circle-o"></i> Edit Gardu</a></li>
-               
+                <li><a href="<?php echo site_url()?>/dashboard/add_gardu/"><i class="fa fa-circle-o"></i>Tambah Gardu</a></li>
+                <li><a href="<?php echo site_url()?>/dashboard/gardu/"><i class="fa fa-circle-o"></i>Gardu</a></li>
+                <li><a href="<?php echo site_url()?>/dashboard/oil_level/"><i class="fa fa-circle-o"></i>Oil Level list</a></li>
+                <li><a href="<?php echo site_url()?>/dashboard/name_trafo_list/"><i class="fa fa-circle-o"></i>Name Trafo list</a></li>
+                <li><a href="<?php echo site_url()?>/dashboard/tap_list/"><i class="fa fa-circle-o"></i>Tap list</a></li>
+                <li><a href="<?php echo site_url()?>/dashboard/tipe_trafo_list/"><i class="fa fa-circle-o"></i>Tipe Trafo list</a></li>   
+                <li>
+                      <a href="#"><i class="fa fa-circle-o"></i>Note<i class="fa fa-angle-left pull-right"></i></a>
+                      <ul class="treeview-menu">
+                        <li><a href="<?php echo site_url()?>/dashboard/note_gardu/"><i class="fa fa-circle-o"></i>Note Gardu</a></li>
+                        <li><a href="<?php echo site_url()?>/dashboard/note_rak/"><i class="fa fa-circle-o"></i>Note Rak</a></li>
+                        <li><a href="<?php echo site_url()?>/dashboard/note_trafo/"><i class="fa fa-circle-o"></i>Note Trafo</a></li>
+                      </ul>
+                    </li>
               </ul>
             </li>
             <li>
