@@ -4,11 +4,10 @@
           <!-- Sidebar user panel -->
           <div class="user-panel">
             <div class="pull-left image">
-              <img src="<?php echo base_url();?>asset/dist/img/user2-160x160.jpg" class="img-circle" alt="User Image">
+              <img src="<?php echo base_url();?>asset/dist/img/unknown_user.png" class="img-circle" alt="User Image">
             </div>
             <div class="pull-left info">
-              <p>Admin</p>
-              <a href="#"><i class="fa fa-circle text-success"></i> Online</a>
+              Hi..<p>Admin</p>
             </div>
           </div>
           <!-- search form -->
@@ -40,7 +39,7 @@
                 <span class="label label-primary pull-right">4</span>
               </a>
               <ul class="treeview-menu">
-                <li><a href="pages/layout/top-nav.html"><i class="fa fa-circle-o"></i> Input Pengukuran</a></li>
+                <li><a href="<?php echo site_url()?>/pengukuran/add_pengukuran/"><i class="fa fa-circle-o"></i> Input Pengukuran</a></li>
               </ul>
             </li>
             <li class="treeview">
@@ -66,11 +65,7 @@
                     </li>
               </ul>
             </li>
-            <li>
-              <a href="pages/widgets.html">
-                <i class="fa fa-th"></i> <span>Widgets</span> <small class="label pull-right bg-green">new</small>
-              </a>
-            </li>
+            
             <li class="header">LABELS</li>
             <li><a href="#"><i class="fa fa-circle-o text-red"></i> <span>Important</span></a></li>
             <li><a href="#"><i class="fa fa-circle-o text-yellow"></i> <span>Warning</span></a></li>
