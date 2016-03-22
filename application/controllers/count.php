@@ -210,6 +210,20 @@ class Count extends CI_Controller {
 					$r_akhir = $r-$pindah_r;
 					
 				}
+			}else{
+					$data['r_awal'] = $r;
+					$data['s_awal'] = $s;
+					$data['t_awal'] = $t;
+					
+					$data['s'] =  $s;
+					$data['t'] =  $t;
+					$data['r'] =  $r;
+
+					$data['keterangan_r'] = array();
+					$data['keterangan_s'] = array();
+					$data['keterangan_t'] = array();
+
+					$this->load->view('show_count',$data);
 			}
 		
 		}
