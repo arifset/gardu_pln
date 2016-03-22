@@ -18,24 +18,33 @@
                   <h3 class="box-title">INPUT KONDISI MINYAK</h3>
                 </div><!-- /.box-header -->
                 <!-- form start -->
-                <form class="form-horizontal">
+                <form class="form-horizontal" method="post" action="<?php echo site_url();?>/pengukuran/add_pengukuran">
                   <div class="box-body">
                     <div class="form-group">
                       <label for="inputEmail3" class="col-sm-2 control-label">Gardu</label>
                       <div class="col-sm-10">
-                        <input type="email" class="form-control input-sm" id="inputEmail3" >
+                        <select class="form-control" name="jenis_gardu">
+                                            <?php 
+                                                foreach ($gardu as $value) {
+                                                        echo"<option value=$value->id_gardu>$value->nama_gardu</option>";
+                                                    
+                                                }
+                                            ?>
+                                            
+                                        </select>
+  
                       </div>
                     </div>
                     <div class="form-group">
                       <label for="inputPassword3" class="col-sm-2 control-label">Tgl/Ukur</label>
                       <div class="col-sm-10">
-                        <input type="text" class="form-control input-sm" id="inputPassword3" placeholder="">
+                        <input type="text" class="form-control input-sm" id="inputPassword3" placeholder="" required>
                       </div>
                     </div>                   
                     <div class="form-group">
                       <label for="inputPassword3" class="col-sm-2 control-label">Warna</label>
                       <div class="col-sm-10">
-                        <input type="text" class="form-control input-sm" id="inputPassword3" placeholder="">
+                        <input type="text" class="form-control input-sm" id="inputPassword3" placeholder="" required>
                       </div>
                     </div>
                     <div class="form-group">
@@ -73,15 +82,13 @@
                       </div>  
                     </div>    
                   </div><!-- /.box-body -->
-                  
-                </form>
+                  \
               </div><!-- /.box -->
 			<div class="box box-primary">
                 <div class="box-header with-border">
                   <h3 class="box-title">DATA TRAFO</h3>
                 </div><!-- /.box-header -->
                 <!-- form start -->
-                <form class="form-horizontal">
                   <div class="box-body">
                     <div class="form-group">
                       <label for="inputEmail3" class="col-sm-2 control-label">CO fuse</label>
@@ -184,7 +191,7 @@
                   <div class="box-footer">	
                     <button type="submit" class="btn btn-info pull-right">SUBMIT</button>
                   </div><!-- /.box-footer -->
-                </form>
+               
 
               </div><!-- /.box -->
            </div>
@@ -223,7 +230,6 @@
                     </div>
                   </div><!-- /.box-body -->
                   
-                </form>
               </div><!-- /.box -->
               <div class="box box-primary">
                 <div class="box-header with-border">

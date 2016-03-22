@@ -6,6 +6,7 @@ class Pengukuran extends MY_Controller {
 	function __construct(){
 		parent::__construct();
 		$this->load->model('mpengukuran');
+		
 		if($this->session->userdata('islogin')==FALSE){    		
     	   	redirect('login');
         }
@@ -25,9 +26,9 @@ class Pengukuran extends MY_Controller {
 	}
 	function add_pengukuran(){
 		//$data['trafo_list']=$this->mpengukuran->get_trafo_list();
-		//$data['jenis_gardu'] = $this->mgardu->get_jenis_gardu();
+		$data['gardu'] = $this->mpengukuran->get_gardu();
 		//$data['gi_gardu'] = $this->mgardu->get_gi_gardu();
-		$this->render_pages('add_pengukuran');		
+		$this->render_pages('add_pengukuran',$data);		
 	}
 	function act_add_pengukuran(){
 		$nama_gardu = $this->input->post('nama_gardu');
